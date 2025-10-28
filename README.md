@@ -64,7 +64,7 @@ The [`/sql/schema.sql`](./sql/schema.sql) file includes:
 ##  How to Run
 
 1. **Install dependencies**
-   ```bash
+
    npm install
 
 2. **Set up environment variables**
@@ -73,11 +73,11 @@ The [`/sql/schema.sql`](./sql/schema.sql) file includes:
    - **MongoDB:** MONGO_URI=mongodb://127.0.0.1:27017/ProjDB
 
 3. **Initialize PostgreSQL database**
-   ```bash
-   node scripts/init-db.js
+   
+  -  node scripts/init-db.js
 
 4. **Start the server**
-   node app.js
+   - node app.js
 
 **Example Request** (on powershell terminal)
    
